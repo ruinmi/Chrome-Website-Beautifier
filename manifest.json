@@ -1,0 +1,50 @@
+{
+    "name": "rmJay's Blocker",
+    "description": "rmJay's Blocker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons":
+	{
+		"16": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+    },
+    "background":
+	{
+        "page": "popup.html"
+	},
+    "browser_action": 
+	{
+		"default_icon": "img/icon.png",
+		"default_title": "rmJay's Blocker",
+		"default_popup": "popup.html"
+	},
+    "content_scripts":
+    [
+        {
+            "matches": 
+            [
+                "https://www.taobao.com/*", 
+                "https://*.bilibili.com/*",
+                "https://tieba.baidu.com/*"
+            ],
+            "js": ["js/app.js", "js/jquery-3.5.1.min.js"],
+            "css": ["css/custom.css"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": 
+            [
+                "http://www.cadzxw.com/*"
+            ],
+            "js": ["js/app.js", "js/jquery-3.5.1.min.js"],
+            "css": ["css/custom.css"],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": 
+    [
+        "http://www.cadzxw.com/*"
+    ]
+
+}
