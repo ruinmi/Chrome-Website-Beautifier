@@ -1,0 +1,39 @@
+/* CAD自学网 */
+#gg,#scroll,#top-header,#footer-widget-box,#colophon,#social,.tg-pc,.tg-site,.logo-site,.header-sub,.s-weixin,
+/* 淘宝 */
+.tbh-qr-wrapper,.search-ft,.tbh-banner,.tbh-fixedtool,.tbh-tipoff,.tbh-notice,.tbh-conve,.tbh-app,
+/* bilibili */
+.nav-link-item:nth-child(1),.nav-link-item:nth-child(2),.nav-link-item:nth-child(3),.nav-link-item:nth-child(4),.nav-link-item:nth-child(5),.nav-link-item:nth-child(6),.nav-link-item:nth-child(7),.nav-link-item:nth-child(8),.nav-link-item:nth-child(9),
+.nav-user-center .item:nth-child(2), #activity_vote, #live_recommand_report, .video-title .activity,
+.search-icon,
+/* tieba */
+#pb_content .right_section,.tbui_aside_float_bar,#spage_liveshow_slide,
+.forum_content #aside,.main-sec .top-sec,#spage-tbshare-container,.right-sec .r-right-sec,
+#spage_game_tab_wrapper
+{
+    display: none !important;
+}
+/* \\ CAD自学网 */
+#top-menu #site-nav-wrap {
+    float: left !important;
+    max-width: 100% !important;
+}
+.nav-search {
+    line-height: 30px !important;
+    margin: 0 5px 0 5px !important;
+}
+#site-nav .down-menu li {
+    height: 30px !important;
+    line-height: 30px !important;
+}
+.site-header-s {
+    height: 55px !important;
+}
+/* bilibili */
+.nav-link ~ .nav-search-box {
+    display: block !important;
+}
+/* tieba */
+.forum_content .main {
+    width: 100% !important;
+}
